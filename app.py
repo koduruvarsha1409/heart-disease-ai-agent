@@ -5,8 +5,8 @@ import joblib
 # -----------------------------
 # Load Model and Scaler
 # -----------------------------
-MODEL_PATH = "/content/drive/MyDrive/heart_disease_rf_model.pkl"
-SCALER_PATH = "/content/drive/MyDrive/scaler.pkl"
+MODEL_PATH = "heart_disease_rf_model.pkl"
+SCALER_PATH = "scaler.pkl"
 
 model = joblib.load(MODEL_PATH)
 scaler = joblib.load(SCALER_PATH)
